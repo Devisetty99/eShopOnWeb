@@ -8,6 +8,13 @@
 	<ItemGroup>
 		<PackageReference Include="Ardalis.GuardClauses" Version="1.2.8" />
 		<PackageReference Include="System.Security.Claims" Version="4.3.0" />
+		<PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.113">
+		<PrivateAssets>all</PrivateAssets>
+  		<IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+		</PackageReference>
+		
 	</ItemGroup>
+	
+  	
 
 </Project>
